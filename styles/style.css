@@ -1,0 +1,60 @@
+body{
+  max-width: 1440px;
+  margin: 20px auto;
+}
+
+/* header section styles */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.manu{
+  display: flex;
+  gap: 30px;
+}
+
+.brand{
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3A3A3A;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
+.influencer-container{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.influencer-image-div{
+  background-image: url("../images/Circle design.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.influencer-title{
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #3A3A3A;
+}
+.influencer-description{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3A3A3A;
+}
