@@ -185,7 +185,44 @@ nav li a{
   border: none;
 }
 
+.footer-section{
+  background: #0A0826;
+  text-align: center;
+  margin-top: 40px;
+  
+ 
+}
 
+.footer-container{
+ padding: 20px;
+  
+  
+} 
+
+.footer-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  
+}
+.footer-sub-title{
+  font-size: .9rem;
+  font-weight: 400;
+  color:  #D9DBE1;
+}
+.footer-para{
+  font-size: .8rem;
+  font-weight: 700;
+  color: #D9DBE1;
+}
+
+.footer-icon{
+  color: #D9DBE1;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
 
 
 /* small device respnsive */
