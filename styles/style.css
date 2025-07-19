@@ -146,6 +146,46 @@ nav li a{
 }
 
 
+/* feature section styles */
+
+.section-04{
+  margin-top: 100px;
+}
+
+
+.feature-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+
+}
+.feature-box{
+  max-width: 610px;
+}
+
+.feature-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0A0826;
+  margin-bottom: 10px;
+}
+.feature-description{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #6C6C6C;
+}
+
+.feature-button{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #E02C6D;
+  padding: 10px 20px;
+  border: none;
+}
+
+
 
 
 /* small device respnsive */
@@ -154,7 +194,8 @@ nav li a{
 @media screen and (max-width: 576px){
   .navbar,
    .manu,
-   .influencer-container{
+   .influencer-container,
+   .feature-container{
     flex-direction: column;
 
   }
@@ -166,9 +207,6 @@ nav li a{
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
 }
-
-
-
   .manu{
     margin: 0 auto;
   }
@@ -189,6 +227,9 @@ nav li a{
   height: 300px;
   margin: 0 auto;
 }
+.company-container{
+  margin: 0 auto;
+}
 
 .influencer-image{
   width: 100%;
@@ -197,15 +238,41 @@ nav li a{
 .card{
   margin: 0 auto;
 }
+.feature-image{
+  width: 100%;
+}
+.feature-container{
+  margin: 20px auto;
+  padding: 20px;
+}
  
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
   .influencer-container{
     flex-direction: column;
-    /* padding: 20px; */
     margin: 50px 30px;
   }
+
+  .feature-container{
+    padding: 10px;
+  }
+  /* .feature-box{
+    overflow: hidden;
+  } */
+ 
+  .feature-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0A0826;
+  margin-bottom: 10px;
+}
+
+.feature-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6C6C6C;
+}
 
   .company-container{
     grid-template-columns: repeat(3, 1fr);
