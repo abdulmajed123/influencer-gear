@@ -34,6 +34,10 @@ nav li a{
   color: #3A3A3A;
 }
 
+.section-01{
+  margin-top: 50px;
+}
+
 .influencer-container{
   display: flex;
   align-items: center;
@@ -42,9 +46,8 @@ nav li a{
 
 .influencer-image-div{
   background-image: url("../images/Circle design.svg");
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 
 }
 
@@ -52,9 +55,67 @@ nav li a{
   font-size: 3.2rem;
   font-weight: 700;
   color: #3A3A3A;
+  margin-bottom: 10px;
 }
 .influencer-description{
   font-size: 1.1rem;
   font-weight: 600;
   color: #3A3A3A;
 }
+
+.influencer-button{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #E02C6D;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+
+
+/* small device respnsive */
+
+
+@media screen and (max-width: 576px){
+  .navbar,
+   .manu,
+   .influencer-container{
+    flex-direction: column;
+
+  }
+  .manu{
+    margin: 0 auto;
+  }
+  .influecer-div{
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .influencer-image-div{
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+.influencer-image{
+  width: 100%;
+}
+ 
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+  .influencer-container{
+    flex-direction: column;
+    /* padding: 20px; */
+    margin: 50px 30px;
+  }
+  
+  .header-section{
+    margin: 20px 20px ;
+  }
+  
+}
+
