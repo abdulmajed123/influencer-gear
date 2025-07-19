@@ -177,11 +177,19 @@ nav li a{
     text-align: center;
     margin-bottom: 10px;
   }
+
+  .section-02{
+    max-width: 1000px;
+  }
+  .comapany-name-image{
+    width: 100%;
+  }
   .influencer-image-div{
   width: 300px;
   height: 300px;
   margin: 0 auto;
 }
+
 .influencer-image{
   width: 100%;
 }
